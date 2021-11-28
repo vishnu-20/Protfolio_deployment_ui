@@ -1,0 +1,42 @@
+
+
+.home_container{
+    .container {
+        max-width: 965px;
+
+        .about_container{
+            padding-top: 100px;
+            h2{
+                font-size: 50px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            P{
+                margin-top: 40px;
+                letter-spacing: 2px;
+                line-height: 2rem;
+            }
+
+        }
+    }
+
+    .gitHub_container{
+     
+        a{
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        .git_icon{
+            
+            color: green;
+           
+        }
+        .insta_icon{
+            color: red;
+        }
+          
+        .link_icon{
+            color: rgb(12,102,195);
+        }
+    }
+}

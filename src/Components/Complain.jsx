@@ -49,7 +49,7 @@ function Complain() {
               className="form_container"
               onSubmit={sendEmail}
             >
-              <h4>Lets do some business</h4>
+              <h4>Let's do some business</h4>
 
               <div className="row ">
                 <div className="col">
@@ -98,7 +98,7 @@ function Complain() {
                   <textarea
                     required
                     className="form-control"
-                    placeholder="Lets Talk"
+                    placeholder="Let's Talk"
                     type="text"
                     name="emailBody"
                     rows="5"
@@ -112,7 +112,7 @@ function Complain() {
                 className="mail_button btn btn-primary form-control"
                 type="submit"
               >
-                Submit Complain
+                Send 
               </button>
             </form>
           </div>

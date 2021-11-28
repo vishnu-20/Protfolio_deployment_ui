@@ -1,14 +1,8 @@
-.complain_heading{
-    padding-top: 50px;
-    padding-bottom: 20px;
-      h2{
-          letter-spacing: 2px;
-          text-transform: capitalize;
-      }
-  
-  }
+
   .form_compalin_container{
       padding-bottom: 50px;
+      padding-left: 100px;
+      padding-right: 100px;
       .form_container{
           box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
       }
@@ -94,5 +88,12 @@
         }
 
       }
+
+      .complain_main_container{
+         margin-top: 100px;
+          .heading_contact{
+              text-align: center;
+          }
+        
+      }
      
-    

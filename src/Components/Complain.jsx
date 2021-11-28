@@ -41,16 +41,12 @@ function Complain() {
   return (
     <div className="complain_main_container">
       <div className="container">
+          <h2 className="heading_contact">Contact Me</h2>
         <div className="row">
-          <div className="col-mg-12 text-center complain_heading">
-            <h2> Contact Me</h2>
-          </div>
-        </div>
-        <div className="row ">
-          <div className="col-lg-8 form_compalin_container">
+          <div className="col-lg-12 form_compalin_container">
             <form
               ref={form}
-              className="form_container animate__animated animate__slideInLeft"
+              className="form_container"
               onSubmit={sendEmail}
             >
               <h4>Lets do some business</h4>
@@ -121,26 +117,7 @@ function Complain() {
             </form>
           </div>
 
-          <div className="col-lg-4 col-md-12 aboutcard_mission_container animate__animated animate__slideInRight">
-            <div className="card">
-              <div className="crad_images_about">
-                <i className="fa fa-phone fa-5x"></i>
-              </div>
-              <div className="card-body">
-                <div className="card-title">Contact Us</div>
-                <div className="card-text">
-                  <p>2909, AL MOSTUBAL STREET,</p>
-                  <p>7090, IBN SINA DISTRICT,</p>
-                  <p>AL KHOBAR, 34627.</p>
-                  <br></br>
-                  <div className="email_phone">
-                    <p>8technical.services@gmail.com </p>
-                    <p>+966502482087 </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+       
         </div>
       </div>
     </div>

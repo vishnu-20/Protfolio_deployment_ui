@@ -1,8 +1,9 @@
 
 
 .home_container{
+    background-color: rgb(250,250,250);
     .container {
-        max-width: 965px;
+  
 
         .about_container{
             padding-top: 100px;
@@ -17,7 +18,17 @@
                 line-height: 2rem;
             }
 
+
         }
+        .about_image_container{
+            padding-top: 100px;
+            .image_about{
+                color: rgb(250,250,250);
+                width: 500px;
+                height: 400px;
+            }
+        }
+    
     }
 
     .gitHub_container{
@@ -38,5 +49,107 @@
         .link_icon{
             color: rgb(12,102,195);
         }
+    }
+
+    .card_container_service{
+        margin-top: 80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .card{
+           
+            border-radius: 10px;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            height: 300px;
+            align-items: center;
+            position: relative;
+            text-align: center;
+            margin-top: 20px;
+
+            &::after {
+                content: "";
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgb(223, 28, 142);
+                position: absolute;
+                clip-path: circle(30% at 15% 15%);
+              }
+
+              &::after{
+                  content: "";
+                  bottom: 0;
+                  right: 50;
+                   top: 50;
+                  left: 0;
+                  background-color: rgb(255, 0, 234);
+                  width: 100%;
+                  position: absolute;
+                  height: 100%;
+                  clip-path: circle(30% at 15% 15%);
+              }
+
+              &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                background-color: #cc327f;
+                position: absolute;
+                clip-path: ellipse(124px 118px at 117% 121%);
+                bottom: 0;
+                right: 0;
+
+
+              }
+
+             .card_img_container{
+                 margin-top: 20px;
+                background-color: rgb(224, 224, 224);
+                 width: 100px;
+                 height: 100px; 
+                 position: relative;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 text-align: center;
+                 flex-direction: row;
+                 border: 10px solid white;
+                 box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+                 border-radius: 50%;
+                 z-index: 2;
+             
+                 i{
+                     color:  blue;
+
+                 }
+                
+             }
+    
+        }
+    }
+.progress_container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+    .progress_bar_container{
+        margin-top: 20px;
+    }
+
+}
+
+.skill_container{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    h2{
+        text-align: center;
+        text-transform: capitalize;
+
+    }
+
+    p{
+        text-align: center;
     }
 }

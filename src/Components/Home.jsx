@@ -2,7 +2,8 @@ import React from "react";
 import "./Home.scss";
 import home_img from "../images/home.JPG";
 import SkillSet from "./SkillSet";
-import Complain from "./Complain";
+import Contact from "./Contact";
+import About from "./About";
 
 function Home() {
   const skills = [
@@ -72,8 +73,8 @@ function Home() {
             <div className="about_container">
               <h2>I am Vishnu</h2>
               <p>
-                I am Vishnu Lal an young Entrepreneur, programmer, Web developer, Full Stack developer, Java
-                developer.
+                I am Vishnu Lal an young Entrepreneur, programmer, Web
+                developer, Full Stack developer.
               </p>
               <div className="gitHub_container">
                 <a
@@ -153,7 +154,8 @@ function Home() {
               <div class="card-body">
                 <h5 class="card-title">Full Stack Developmet</h5>
                 <p class="card-text">
-                  Devleop your best Android application for you business.
+                  Devleop your best application based on you business
+                  Requirements.
                 </p>
               </div>
             </div>
@@ -166,7 +168,8 @@ function Home() {
               <div class="card-body">
                 <h5 class="card-title">Application Support</h5>
                 <p class="card-text">
-                  Devleop your best Android application for you business.
+                  Time-to-time application support and maintenance for your
+                  application
                 </p>
               </div>
             </div>
@@ -182,14 +185,26 @@ function Home() {
           </div>
 
           {skills.map((data, index) => (
-            <SkillSet value={data} />
+            <SkillSet value={data} key={index} />
           ))}
         </div>
       </div>
 
       <div className="compalin_container_ui">
-        <Complain />
+        <Contact />
       </div>
+      <div className="container git_hub_Button">
+        <h3>Check My gihub Might help you in Learning</h3>
+        <a
+          href="https://github.com/vishnu-20/"
+          target="_blank"
+          rel="noreferrer"
+          className="link_icon"
+        >
+          <i className="fa fa-github-square fa-2x"></i>
+        </a>
+      </div>
+       <About />
     </div>
   );
 }

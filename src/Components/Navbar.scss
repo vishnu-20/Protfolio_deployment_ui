@@ -1,12 +1,14 @@
 
-
+.man_nav_con{
+    border: 1px solid rgb(219,219,219);
+}
 .navbar_container{
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px solid rgb(219,219,219);
+  
 
     .navbar_heading{
        

@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { useSnackbar } from "notistack";
-import "./Complain.scss";
+import "./Contact.scss";
 import { CircularProgress } from "@material-ui/core";
 
 function Complain() {

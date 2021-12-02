@@ -11,7 +11,7 @@ function About() {
           <img src={me} alt="" className="ab_me" />
         </div>
 
-        <div className="col-md-6" data-aos="fade-right">
+        <div className="col-md-6 dec_about" data-aos="fade-right">
           <p>
             I am Vishnu. An young programmer, web developer, full stack
             developer. I have good knowledge in react js and backend framework

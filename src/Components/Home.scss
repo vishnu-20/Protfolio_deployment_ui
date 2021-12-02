@@ -1,7 +1,8 @@
 
 
 .home_container{
-    background-color: rgb(250,250,250);
+    // background-color: rgb(250,250,250);
+    background-color: white;
     .container {
   
 
@@ -22,6 +23,7 @@
         }
         .about_image_container{
             padding-top: 100px;
+            overflow: hidden;
             .image_about{
                 color: rgb(250,250,250);
                 width: 87%;
@@ -131,9 +133,11 @@
 .progress_container{
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
     .progress_bar_container{
         margin-top: 20px;
+        
     }
 
 }

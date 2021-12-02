@@ -86,7 +86,7 @@ function Home() {
                   <i className="fa fa-github fa-2x"></i>
                 </a>
                 <a
-                  href="https://github.com/vishnu-20/"
+                  href="https://m.facebook.com/profile.php?id=100012223186655"
                   target="_blank"
                   rel="noreferrer"
                   className="fb_icon"

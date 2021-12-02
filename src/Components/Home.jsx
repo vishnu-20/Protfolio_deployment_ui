@@ -190,10 +190,10 @@ function Home() {
         </div>
       </div>
 
-      <div className="compalin_container_ui">
+      <div className="compalin_container_ui" data-aos="fade-down">
         <Contact />
       </div>
-      <div className="container git_hub_Button">
+      <div className="container git_hub_Button" data-aos="zoom-out">
         <h3>Check My gihub Might help you in Learning</h3>
         <a
           href="https://github.com/vishnu-20/"

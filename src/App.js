@@ -1,11 +1,18 @@
 
+import Aos from "aos";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import './App.css';
 import Home from "./Components/Home";
 import Navbar from './Components/Navbar';
 import WhatsApp from "./Components/WhatsApp";
+import {useEffect} from 'react'
 
 function App() {
+
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <BrowserRouter >
 

@@ -7,11 +7,11 @@ function About() {
     <div className="container" style={{ marginTop: "50px",paddingBottom:"50px" }}>
       <h2>About Me</h2>
       <div className="row" style={{ marginTop: "50px" }}>
-        <div className="col-md-6">
+        <div className="col-md-6" data-aos="fade-left">
           <img src={me} alt="" className="ab_me" />
         </div>
 
-        <div className="col-md-6">
+        <div className="col-md-6" data-aos="fade-right">
           <p>
             I am Vishnu. An young programmer, web developer, full stack
             developer. I have good knowledge in react js and backend framework

@@ -94,7 +94,7 @@ function Home() {
                   <i className="fa fa-facebook-square fa-2x"></i>
                 </a>
                 <a
-                  href="https://github.com/vishnu-20/"
+                  href="https://instagram.com/vishnu_lal_20?utm_medium=copy_link"
                   target="_blank"
                   rel="noreferrer"
                   className="insta_icon"
@@ -102,7 +102,7 @@ function Home() {
                   <i className="fa fa-instagram fa-2x"></i>
                 </a>
                 <a
-                  href="https://github.com/vishnu-20/"
+                  href="https://www.linkedin.com/in/vishnu-lal-a3509a202"
                   target="_blank"
                   rel="noreferrer"
                   className="link_icon"
@@ -128,7 +128,7 @@ function Home() {
               <div class="card-body">
                 <h5 class="card-title">Web Development</h5>
                 <p class="card-text">
-                  Devleop your best websites/web application for you business.
+                Develop your best websites/web application for your business.
                 </p>
               </div>
             </div>
@@ -141,7 +141,7 @@ function Home() {
               <div class="card-body">
                 <h5 class="card-title">App Development</h5>
                 <p class="card-text">
-                  Devleop your best Android application for you business.
+                Develop your best Android application for your business.
                 </p>
               </div>
             </div>
@@ -154,7 +154,7 @@ function Home() {
               <div class="card-body">
                 <h5 class="card-title">Full Stack Developmet</h5>
                 <p class="card-text">
-                  Devleop your best application based on you business
+                Develop your best application based on your business
                   Requirements.
                 </p>
               </div>

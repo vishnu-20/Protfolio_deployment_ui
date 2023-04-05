@@ -3,6 +3,7 @@ import "./About.scss";
 import me from "../images/mw.JPG";
 
 function About() {
+  // hello
   return (
     <div className="container" style={{ marginTop: "50px",paddingBottom:"50px" }}>
       <h2>About Me</h2>
